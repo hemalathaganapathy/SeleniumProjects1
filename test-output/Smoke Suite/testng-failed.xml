@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Smoke test run(failed)">
+    <classes>
+      <class name="POMSampleProgram.GoibiboSetup">
+        <methods>
+          <include name="enter_search_hoteldetail"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POMSampleProgram.GoibiboSetup -->
+    </classes>
+  </test> <!-- Smoke test run(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

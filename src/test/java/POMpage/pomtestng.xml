@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+    <test parallel="methods" thread-count="2" name="Smoke test run">
+        <classes>
+            <class name="POMSampleProgram.GoibiboSetup">
+                <methods>
+                    <include name="navigate_to_hotelpage"/>
+                    <include name="enter_search_hoteldetail"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
